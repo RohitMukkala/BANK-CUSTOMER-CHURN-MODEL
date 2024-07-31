@@ -8,10 +8,8 @@ This repository contains a comprehensive project focused on predicting customer 
 - [Data](#data)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
@@ -44,3 +42,24 @@ To get started with this project, clone the repository and install the required 
 git clone https://github.com/RohitMukkala/BANK-CUSTOMER-CHURN-MODEL.git
 cd BANK-CUSTOMER-CHURN-MODEL
 pip install -r requirements.txt
+```
+## Usage
+After installing the dependencies, you can run the Jupyter notebook to train and evaluate the model:
+
+```bash
+jupyter notebook bank_customer_churn.ipynb
+```
+The notebook includes steps for data preprocessing, model training, evaluation, and analysis of feature importance.
+
+## Result
+
+With the help of this project we can find the customers who are about to churn the bank.
+With the help of this we can reduce the loss of the existing customers.
+
+## Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, feel free to create an issue or submit a pull request.
+
+## Acknowledgements
+Kaggle for providing the dataset.
+The open-source community for their valuable resources and tools.
+scikit-learn for the machine learning library used in this project.
